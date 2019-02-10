@@ -1,0 +1,9 @@
+# Github Language Colors
+
+A list of the colors used by GitHub specified in [github/linguist](https://github.com/github/linguist)
+
+Generate this `README.md` and the `./svgs/*.svg` with Golang: `go run main.go`
+
+{{ range . -}}
+  [![](./svgs/{{.ImageName}}.svg)](https://github.com/trending?l={{.EncodedName}})
+{{ end }}

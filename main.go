@@ -3,12 +3,14 @@ package main
 import (
 	"bytes"
 	"encoding/base64"
+	"fmt"
 	"html/template"
 	"io/ioutil"
 	"log"
 	"net/http"
 	"sort"
 	"strings"
+	"time"
 
 	yaml "gopkg.in/yaml.v2"
 )
@@ -72,7 +74,7 @@ func main() {
 			if ok {
 
 				// create svg images with file name as base64
-				imageName := base64.StdEncoding.EncodeToString([]byte(lang))
+				imageName := base64.StdEncoding.EncodeToString([]byte(lang)) + ".svg"
 
 				svgBuffer := bytes.Buffer{}
 
@@ -85,7 +87,7 @@ func main() {
 					log.Fatal(err)
 				}
 
-				err = ioutil.WriteFile("./svgs/"+imageName+".svg", svgBuffer.Bytes(), 0644)
+				err = ioutil.WriteFile("./svgs/"+imageName, svgBuffer.Bytes(), 0644)
 				if err != nil {
 					log.Fatal(err)
 				}
@@ -96,11 +98,14 @@ func main() {
 				// encode any single quotes
 				encodedName = strings.Replace(encodedName, "'", "&apos;", -1)
 
+				// cache buster for svg filenames
+				unixTime := time.Now().Unix()
+
 				// add language to readme
 				readmeData = append(readmeData, imageLink{
 					Name:        lang,
 					EncodedName: encodedName,
-					ImageName:   imageName,
+					ImageName:   fmt.Sprintf("%s?created_at=%d", imageName, unixTime),
 					HexColor:    color,
 				})
 			}

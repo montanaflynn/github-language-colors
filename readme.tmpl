@@ -7,5 +7,5 @@ Generate this `README.md` and the `./svgs/*.svg` with Golang: `go run main.go`
 Name|Color
 ----|-----
 {{ range . -}}
-[{{.Name}}](https://github.com/trending?l={{.EncodedName}}) | `{{.HexColor}}` ![](./svgs/{{.ImageName}}.svg)
+[{{.Name}}](https://github.com/trending?l={{.EncodedName}}) | `{{.HexColor}}` ![](./svgs/{{.ImageName}})
 {{ end }}

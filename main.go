@@ -8,6 +8,7 @@ import (
 	"io/ioutil"
 	"log"
 	"net/http"
+	"os"
 	"sort"
 	"strings"
 	"time"
@@ -53,6 +54,19 @@ func main() {
 		log.Fatal(err)
 	}
 
+	// ensure svgs directory exists and is empty
+	err = os.RemoveAll("./svgs")
+	if err != nil {
+		if err != os.ErrNotExist {
+			log.Fatal(err)
+		}
+	}
+
+	err = os.Mkdir("./svgs", 0755)
+	if err != nil {
+		log.Fatal(err)
+	}
+
 	// generate svgs and readme
 	readmeData := readme{}
 
@@ -73,8 +87,14 @@ func main() {
 			color, ok := meta["color"].(string)
 			if ok {
 
-				// create svg images with file name as base64
-				imageName := base64.StdEncoding.EncodeToString([]byte(lang)) + ".svg"
+				// language name as base64 raw url encoding
+				base64Name := base64.RawURLEncoding.EncodeToString([]byte(lang))
+
+				// timestamp for svg filenames so they aren't cached
+				unixTime := time.Now().Unix()
+
+				// create the svg image file name
+				imageName := fmt.Sprintf("%s-%d.svg", base64Name, unixTime)
 
 				svgBuffer := bytes.Buffer{}
 
@@ -98,14 +118,11 @@ func main() {
 				// encode any single quotes
 				encodedName = strings.Replace(encodedName, "'", "&apos;", -1)
 
-				// cache buster for svg filenames
-				unixTime := time.Now().Unix()
-
 				// add language to readme
 				readmeData = append(readmeData, imageLink{
 					Name:        lang,
 					EncodedName: encodedName,
-					ImageName:   fmt.Sprintf("%s?created_at=%d", imageName, unixTime),
+					ImageName:   imageName,
 					HexColor:    color,
 				})
 			}

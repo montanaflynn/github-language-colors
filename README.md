@@ -2,243 +2,247 @@
 
 A list of the colors used by GitHub specified in [github/linguist](https://github.com/github/linguist)
 
-Generate this `README.md` and the `./svgs/*.svg` with Golang: `go run main.go`
+Generate this `README.md` with Golang: `go run main.go`
 
-[![](./svgs/MUMgRW50ZXJwcmlzZQ==.svg)](https://github.com/trending?l=1C%20Enterprise)
-[![](./svgs/QUJBUA==.svg)](https://github.com/trending?l=ABAP)
-[![](./svgs/QWN0aW9uU2NyaXB0.svg)](https://github.com/trending?l=ActionScript)
-[![](./svgs/QWRh.svg)](https://github.com/trending?l=Ada)
-[![](./svgs/QWdkYQ==.svg)](https://github.com/trending?l=Agda)
-[![](./svgs/QUdTIFNjcmlwdA==.svg)](https://github.com/trending?l=AGS%20Script)
-[![](./svgs/QWxsb3k=.svg)](https://github.com/trending?l=Alloy)
-[![](./svgs/QU1QTA==.svg)](https://github.com/trending?l=AMPL)
-[![](./svgs/QW5nZWxTY3JpcHQ=.svg)](https://github.com/trending?l=AngelScript)
-[![](./svgs/QU5UTFI=.svg)](https://github.com/trending?l=ANTLR)
-[![](./svgs/QVBJIEJsdWVwcmludA==.svg)](https://github.com/trending?l=API%20Blueprint)
-[![](./svgs/QVBM.svg)](https://github.com/trending?l=APL)
-[![](./svgs/QXBwbGVTY3JpcHQ=.svg)](https://github.com/trending?l=AppleScript)
-[![](./svgs/QXJj.svg)](https://github.com/trending?l=Arc)
-[![](./svgs/QVNQ.svg)](https://github.com/trending?l=ASP)
-[![](./svgs/QXNwZWN0Sg==.svg)](https://github.com/trending?l=AspectJ)
-[![](./svgs/QXNzZW1ibHk=.svg)](https://github.com/trending?l=Assembly)
-[![](./svgs/QXN5bXB0b3Rl.svg)](https://github.com/trending?l=Asymptote)
-[![](./svgs/QVRT.svg)](https://github.com/trending?l=ATS)
-[![](./svgs/QXV0b0hvdGtleQ==.svg)](https://github.com/trending?l=AutoHotkey)
-[![](./svgs/QXV0b0l0.svg)](https://github.com/trending?l=AutoIt)
-[![](./svgs/QmFsbGVyaW5h.svg)](https://github.com/trending?l=Ballerina)
-[![](./svgs/QmF0Y2hmaWxl.svg)](https://github.com/trending?l=Batchfile)
-[![](./svgs/QmxpdHpNYXg=.svg)](https://github.com/trending?l=BlitzMax)
-[![](./svgs/Qm9v.svg)](https://github.com/trending?l=Boo)
-[![](./svgs/QnJhaW5mdWNr.svg)](https://github.com/trending?l=Brainfuck)
-[![](./svgs/Qw==.svg)](https://github.com/trending?l=C)
-[![](./svgs/QyM=.svg)](https://github.com/trending?l=C#)
-[![](./svgs/Qysr.svg)](https://github.com/trending?l=C&#43;&#43;)
-[![](./svgs/Q2V5bG9u.svg)](https://github.com/trending?l=Ceylon)
-[![](./svgs/Q2hhcGVs.svg)](https://github.com/trending?l=Chapel)
-[![](./svgs/Q2lycnU=.svg)](https://github.com/trending?l=Cirru)
-[![](./svgs/Q2xhcmlvbg==.svg)](https://github.com/trending?l=Clarion)
-[![](./svgs/Q2xlYW4=.svg)](https://github.com/trending?l=Clean)
-[![](./svgs/Q2xpY2s=.svg)](https://github.com/trending?l=Click)
-[![](./svgs/Q2xvanVyZQ==.svg)](https://github.com/trending?l=Clojure)
-[![](./svgs/Q29mZmVlU2NyaXB0.svg)](https://github.com/trending?l=CoffeeScript)
-[![](./svgs/Q29sZEZ1c2lvbg==.svg)](https://github.com/trending?l=ColdFusion)
-[![](./svgs/Q29tbW9uIExpc3A=.svg)](https://github.com/trending?l=Common%20Lisp)
-[![](./svgs/Q29tbW9uIFdvcmtmbG93IExhbmd1YWdl.svg)](https://github.com/trending?l=Common%20Workflow%20Language)
-[![](./svgs/Q29tcG9uZW50IFBhc2NhbA==.svg)](https://github.com/trending?l=Component%20Pascal)
-[![](./svgs/Q3J5c3RhbA==.svg)](https://github.com/trending?l=Crystal)
-[![](./svgs/Q1NT.svg)](https://github.com/trending?l=CSS)
-[![](./svgs/Q3VkYQ==.svg)](https://github.com/trending?l=Cuda)
-[![](./svgs/RA==.svg)](https://github.com/trending?l=D)
-[![](./svgs/RGFydA==.svg)](https://github.com/trending?l=Dart)
-[![](./svgs/RGF0YVdlYXZl.svg)](https://github.com/trending?l=DataWeave)
-[![](./svgs/RE0=.svg)](https://github.com/trending?l=DM)
-[![](./svgs/RG9ja2VyZmlsZQ==.svg)](https://github.com/trending?l=Dockerfile)
-[![](./svgs/RG9nZXNjcmlwdA==.svg)](https://github.com/trending?l=Dogescript)
-[![](./svgs/RHlsYW4=.svg)](https://github.com/trending?l=Dylan)
-[![](./svgs/RQ==.svg)](https://github.com/trending?l=E)
-[![](./svgs/ZUM=.svg)](https://github.com/trending?l=eC)
-[![](./svgs/RUNM.svg)](https://github.com/trending?l=ECL)
-[![](./svgs/RWlmZmVs.svg)](https://github.com/trending?l=Eiffel)
-[![](./svgs/RWxpeGly.svg)](https://github.com/trending?l=Elixir)
-[![](./svgs/RWxt.svg)](https://github.com/trending?l=Elm)
-[![](./svgs/RW1hY3MgTGlzcA==.svg)](https://github.com/trending?l=Emacs%20Lisp)
-[![](./svgs/RW1iZXJTY3JpcHQ=.svg)](https://github.com/trending?l=EmberScript)
-[![](./svgs/RVE=.svg)](https://github.com/trending?l=EQ)
-[![](./svgs/RXJsYW5n.svg)](https://github.com/trending?l=Erlang)
-[![](./svgs/RiM=.svg)](https://github.com/trending?l=F#)
-[![](./svgs/Rio=.svg)](https://github.com/trending?l=F*)
-[![](./svgs/RmFjdG9y.svg)](https://github.com/trending?l=Factor)
-[![](./svgs/RmFuY3k=.svg)](https://github.com/trending?l=Fancy)
-[![](./svgs/RmFudG9t.svg)](https://github.com/trending?l=Fantom)
-[![](./svgs/RkxVWA==.svg)](https://github.com/trending?l=FLUX)
-[![](./svgs/Rm9ydGg=.svg)](https://github.com/trending?l=Forth)
-[![](./svgs/Rm9ydHJhbg==.svg)](https://github.com/trending?l=Fortran)
-[![](./svgs/RnJlZU1hcmtlcg==.svg)](https://github.com/trending?l=FreeMarker)
-[![](./svgs/RnJlZ2U=.svg)](https://github.com/trending?l=Frege)
-[![](./svgs/R2FtZSBNYWtlciBMYW5ndWFnZQ==.svg)](https://github.com/trending?l=Game%20Maker%20Language)
-[![](./svgs/R0RTY3JpcHQ=.svg)](https://github.com/trending?l=GDScript)
-[![](./svgs/R2VuaWU=.svg)](https://github.com/trending?l=Genie)
-[![](./svgs/R2hlcmtpbg==.svg)](https://github.com/trending?l=Gherkin)
-[![](./svgs/R2x5cGg=.svg)](https://github.com/trending?l=Glyph)
-[![](./svgs/R251cGxvdA==.svg)](https://github.com/trending?l=Gnuplot)
-[![](./svgs/R28=.svg)](https://github.com/trending?l=Go)
-[![](./svgs/R29sbw==.svg)](https://github.com/trending?l=Golo)
-[![](./svgs/R29zdQ==.svg)](https://github.com/trending?l=Gosu)
-[![](./svgs/R3JhbW1hdGljYWwgRnJhbWV3b3Jr.svg)](https://github.com/trending?l=Grammatical%20Framework)
-[![](./svgs/R3Jvb3Z5.svg)](https://github.com/trending?l=Groovy)
-[![](./svgs/SGFjaw==.svg)](https://github.com/trending?l=Hack)
-[![](./svgs/SGFyYm91cg==.svg)](https://github.com/trending?l=Harbour)
-[![](./svgs/SGFza2VsbA==.svg)](https://github.com/trending?l=Haskell)
-[![](./svgs/SGF4ZQ==.svg)](https://github.com/trending?l=Haxe)
-[![](./svgs/SGl2ZVFM.svg)](https://github.com/trending?l=HiveQL)
-[![](./svgs/SFRNTA==.svg)](https://github.com/trending?l=HTML)
-[![](./svgs/SHk=.svg)](https://github.com/trending?l=Hy)
-[![](./svgs/SURM.svg)](https://github.com/trending?l=IDL)
-[![](./svgs/SWRyaXM=.svg)](https://github.com/trending?l=Idris)
-[![](./svgs/SW8=.svg)](https://github.com/trending?l=Io)
-[![](./svgs/SW9rZQ==.svg)](https://github.com/trending?l=Ioke)
-[![](./svgs/SXNhYmVsbGU=.svg)](https://github.com/trending?l=Isabelle)
-[![](./svgs/Sg==.svg)](https://github.com/trending?l=J)
-[![](./svgs/SmF2YQ==.svg)](https://github.com/trending?l=Java)
-[![](./svgs/SmF2YVNjcmlwdA==.svg)](https://github.com/trending?l=JavaScript)
-[![](./svgs/Sm9saWU=.svg)](https://github.com/trending?l=Jolie)
-[![](./svgs/SlNPTmlx.svg)](https://github.com/trending?l=JSONiq)
-[![](./svgs/SnVsaWE=.svg)](https://github.com/trending?l=Julia)
-[![](./svgs/SnVweXRlciBOb3RlYm9vaw==.svg)](https://github.com/trending?l=Jupyter%20Notebook)
-[![](./svgs/S290bGlu.svg)](https://github.com/trending?l=Kotlin)
-[![](./svgs/S1JM.svg)](https://github.com/trending?l=KRL)
-[![](./svgs/TGFzc28=.svg)](https://github.com/trending?l=Lasso)
-[![](./svgs/TGV4.svg)](https://github.com/trending?l=Lex)
-[![](./svgs/TEZF.svg)](https://github.com/trending?l=LFE)
-[![](./svgs/TGl2ZVNjcmlwdA==.svg)](https://github.com/trending?l=LiveScript)
-[![](./svgs/TExWTQ==.svg)](https://github.com/trending?l=LLVM)
-[![](./svgs/TE9MQ09ERQ==.svg)](https://github.com/trending?l=LOLCODE)
-[![](./svgs/TG9va01M.svg)](https://github.com/trending?l=LookML)
-[![](./svgs/TFNM.svg)](https://github.com/trending?l=LSL)
-[![](./svgs/THVh.svg)](https://github.com/trending?l=Lua)
-[![](./svgs/TWFrZWZpbGU=.svg)](https://github.com/trending?l=Makefile)
-[![](./svgs/TWFzaw==.svg)](https://github.com/trending?l=Mask)
-[![](./svgs/TUFUTEFC.svg)](https://github.com/trending?l=MATLAB)
-[![](./svgs/TWF4.svg)](https://github.com/trending?l=Max)
-[![](./svgs/TUFYU2NyaXB0.svg)](https://github.com/trending?l=MAXScript)
-[![](./svgs/TWVyY3VyeQ==.svg)](https://github.com/trending?l=Mercury)
-[![](./svgs/TWVzb24=.svg)](https://github.com/trending?l=Meson)
-[![](./svgs/TWV0YWw=.svg)](https://github.com/trending?l=Metal)
-[![](./svgs/TWlyYWg=.svg)](https://github.com/trending?l=Mirah)
-[![](./svgs/TW9kdWxhLTM=.svg)](https://github.com/trending?l=Modula-3)
-[![](./svgs/TVFMNA==.svg)](https://github.com/trending?l=MQL4)
-[![](./svgs/TVFMNQ==.svg)](https://github.com/trending?l=MQL5)
-[![](./svgs/TVRNTA==.svg)](https://github.com/trending?l=MTML)
-[![](./svgs/TkNM.svg)](https://github.com/trending?l=NCL)
-[![](./svgs/TmVhcmxleQ==.svg)](https://github.com/trending?l=Nearley)
-[![](./svgs/TmVtZXJsZQ==.svg)](https://github.com/trending?l=Nemerle)
-[![](./svgs/bmVzQw==.svg)](https://github.com/trending?l=nesC)
-[![](./svgs/TmV0TGlueA==.svg)](https://github.com/trending?l=NetLinx)
-[![](./svgs/TmV0TGlueCtFUkI=.svg)](https://github.com/trending?l=NetLinx&#43;ERB)
-[![](./svgs/TmV0TG9nbw==.svg)](https://github.com/trending?l=NetLogo)
-[![](./svgs/TmV3TGlzcA==.svg)](https://github.com/trending?l=NewLisp)
-[![](./svgs/TmV4dGZsb3c=.svg)](https://github.com/trending?l=Nextflow)
-[![](./svgs/Tmlt.svg)](https://github.com/trending?l=Nim)
-[![](./svgs/Tml0.svg)](https://github.com/trending?l=Nit)
-[![](./svgs/Tml4.svg)](https://github.com/trending?l=Nix)
-[![](./svgs/TnU=.svg)](https://github.com/trending?l=Nu)
-[![](./svgs/T2JqZWN0aXZlLUM=.svg)](https://github.com/trending?l=Objective-C)
-[![](./svgs/T2JqZWN0aXZlLUMrKw==.svg)](https://github.com/trending?l=Objective-C&#43;&#43;)
-[![](./svgs/T2JqZWN0aXZlLUo=.svg)](https://github.com/trending?l=Objective-J)
-[![](./svgs/T0NhbWw=.svg)](https://github.com/trending?l=OCaml)
-[![](./svgs/T21ncm9mbA==.svg)](https://github.com/trending?l=Omgrofl)
-[![](./svgs/b29j.svg)](https://github.com/trending?l=ooc)
-[![](./svgs/T3BhbA==.svg)](https://github.com/trending?l=Opal)
-[![](./svgs/T3h5Z2VuZQ==.svg)](https://github.com/trending?l=Oxygene)
-[![](./svgs/T3o=.svg)](https://github.com/trending?l=Oz)
-[![](./svgs/UDQ=.svg)](https://github.com/trending?l=P4)
-[![](./svgs/UGFu.svg)](https://github.com/trending?l=Pan)
-[![](./svgs/UGFweXJ1cw==.svg)](https://github.com/trending?l=Papyrus)
-[![](./svgs/UGFycm90.svg)](https://github.com/trending?l=Parrot)
-[![](./svgs/UGFzY2Fs.svg)](https://github.com/trending?l=Pascal)
-[![](./svgs/UGF3bg==.svg)](https://github.com/trending?l=Pawn)
-[![](./svgs/UGVwOA==.svg)](https://github.com/trending?l=Pep8)
-[![](./svgs/UGVybA==.svg)](https://github.com/trending?l=Perl)
-[![](./svgs/UGVybCA2.svg)](https://github.com/trending?l=Perl%206)
-[![](./svgs/UEhQ.svg)](https://github.com/trending?l=PHP)
-[![](./svgs/UGlnTGF0aW4=.svg)](https://github.com/trending?l=PigLatin)
-[![](./svgs/UGlrZQ==.svg)](https://github.com/trending?l=Pike)
-[![](./svgs/UExTUUw=.svg)](https://github.com/trending?l=PLSQL)
-[![](./svgs/UG9nb1NjcmlwdA==.svg)](https://github.com/trending?l=PogoScript)
-[![](./svgs/UG9zdFNjcmlwdA==.svg)](https://github.com/trending?l=PostScript)
-[![](./svgs/UG93ZXJCdWlsZGVy.svg)](https://github.com/trending?l=PowerBuilder)
-[![](./svgs/UG93ZXJTaGVsbA==.svg)](https://github.com/trending?l=PowerShell)
-[![](./svgs/UHJvY2Vzc2luZw==.svg)](https://github.com/trending?l=Processing)
-[![](./svgs/UHJvbG9n.svg)](https://github.com/trending?l=Prolog)
-[![](./svgs/UHJvcGVsbGVyIFNwaW4=.svg)](https://github.com/trending?l=Propeller%20Spin)
-[![](./svgs/UHVwcGV0.svg)](https://github.com/trending?l=Puppet)
-[![](./svgs/UHVyZUJhc2lj.svg)](https://github.com/trending?l=PureBasic)
-[![](./svgs/UHVyZVNjcmlwdA==.svg)](https://github.com/trending?l=PureScript)
-[![](./svgs/UHl0aG9u.svg)](https://github.com/trending?l=Python)
-[![](./svgs/cQ==.svg)](https://github.com/trending?l=q)
-[![](./svgs/UU1M.svg)](https://github.com/trending?l=QML)
-[![](./svgs/UXVha2U=.svg)](https://github.com/trending?l=Quake)
-[![](./svgs/Ug==.svg)](https://github.com/trending?l=R)
-[![](./svgs/UmFja2V0.svg)](https://github.com/trending?l=Racket)
-[![](./svgs/UmFnZWw=.svg)](https://github.com/trending?l=Ragel)
-[![](./svgs/UkFNTA==.svg)](https://github.com/trending?l=RAML)
-[![](./svgs/UmFzY2Fs.svg)](https://github.com/trending?l=Rascal)
-[![](./svgs/UmVib2w=.svg)](https://github.com/trending?l=Rebol)
-[![](./svgs/UmVk.svg)](https://github.com/trending?l=Red)
-[![](./svgs/UmVuJ1B5.svg)](https://github.com/trending?l=Ren&amp;apos;Py)
-[![](./svgs/UmluZw==.svg)](https://github.com/trending?l=Ring)
-[![](./svgs/Um9mZg==.svg)](https://github.com/trending?l=Roff)
-[![](./svgs/Um91Z2U=.svg)](https://github.com/trending?l=Rouge)
-[![](./svgs/UnVieQ==.svg)](https://github.com/trending?l=Ruby)
-[![](./svgs/UlVOT0ZG.svg)](https://github.com/trending?l=RUNOFF)
-[![](./svgs/UnVzdA==.svg)](https://github.com/trending?l=Rust)
-[![](./svgs/U2FsdFN0YWNr.svg)](https://github.com/trending?l=SaltStack)
-[![](./svgs/U0FT.svg)](https://github.com/trending?l=SAS)
-[![](./svgs/U2NhbGE=.svg)](https://github.com/trending?l=Scala)
-[![](./svgs/U2NoZW1l.svg)](https://github.com/trending?l=Scheme)
-[![](./svgs/c2Vk.svg)](https://github.com/trending?l=sed)
-[![](./svgs/U2VsZg==.svg)](https://github.com/trending?l=Self)
-[![](./svgs/U2hlbGw=.svg)](https://github.com/trending?l=Shell)
-[![](./svgs/U2hlbg==.svg)](https://github.com/trending?l=Shen)
-[![](./svgs/U2xhc2g=.svg)](https://github.com/trending?l=Slash)
-[![](./svgs/U2xpY2U=.svg)](https://github.com/trending?l=Slice)
-[![](./svgs/U21hbGx0YWxr.svg)](https://github.com/trending?l=Smalltalk)
-[![](./svgs/U29saWRpdHk=.svg)](https://github.com/trending?l=Solidity)
-[![](./svgs/U291cmNlUGF3bg==.svg)](https://github.com/trending?l=SourcePawn)
-[![](./svgs/U1FG.svg)](https://github.com/trending?l=SQF)
-[![](./svgs/U3F1aXJyZWw=.svg)](https://github.com/trending?l=Squirrel)
-[![](./svgs/U1JlY29kZSBUZW1wbGF0ZQ==.svg)](https://github.com/trending?l=SRecode%20Template)
-[![](./svgs/U3Rhbg==.svg)](https://github.com/trending?l=Stan)
-[![](./svgs/U3RhbmRhcmQgTUw=.svg)](https://github.com/trending?l=Standard%20ML)
-[![](./svgs/U3VwZXJDb2xsaWRlcg==.svg)](https://github.com/trending?l=SuperCollider)
-[![](./svgs/U3dpZnQ=.svg)](https://github.com/trending?l=Swift)
-[![](./svgs/U3lzdGVtVmVyaWxvZw==.svg)](https://github.com/trending?l=SystemVerilog)
-[![](./svgs/VGNs.svg)](https://github.com/trending?l=Tcl)
-[![](./svgs/VGVycmE=.svg)](https://github.com/trending?l=Terra)
-[![](./svgs/VGVY.svg)](https://github.com/trending?l=TeX)
-[![](./svgs/VEkgUHJvZ3JhbQ==.svg)](https://github.com/trending?l=TI%20Program)
-[![](./svgs/VHVyaW5n.svg)](https://github.com/trending?l=Turing)
-[![](./svgs/VHlwZVNjcmlwdA==.svg)](https://github.com/trending?l=TypeScript)
-[![](./svgs/VW5yZWFsU2NyaXB0.svg)](https://github.com/trending?l=UnrealScript)
-[![](./svgs/VmFsYQ==.svg)](https://github.com/trending?l=Vala)
-[![](./svgs/VkNM.svg)](https://github.com/trending?l=VCL)
-[![](./svgs/VmVyaWxvZw==.svg)](https://github.com/trending?l=Verilog)
-[![](./svgs/VkhETA==.svg)](https://github.com/trending?l=VHDL)
-[![](./svgs/VmltIHNjcmlwdA==.svg)](https://github.com/trending?l=Vim%20script)
-[![](./svgs/VmlzdWFsIEJhc2lj.svg)](https://github.com/trending?l=Visual%20Basic)
-[![](./svgs/Vm9sdA==.svg)](https://github.com/trending?l=Volt)
-[![](./svgs/VnVl.svg)](https://github.com/trending?l=Vue)
-[![](./svgs/d2Rs.svg)](https://github.com/trending?l=wdl)
-[![](./svgs/V2ViQXNzZW1ibHk=.svg)](https://github.com/trending?l=WebAssembly)
-[![](./svgs/d2lzcA==.svg)](https://github.com/trending?l=wisp)
-[![](./svgs/WDEw.svg)](https://github.com/trending?l=X10)
-[![](./svgs/eEJhc2U=.svg)](https://github.com/trending?l=xBase)
-[![](./svgs/WEM=.svg)](https://github.com/trending?l=XC)
-[![](./svgs/WFF1ZXJ5.svg)](https://github.com/trending?l=XQuery)
-[![](./svgs/WFNMVA==.svg)](https://github.com/trending?l=XSLT)
-[![](./svgs/WWFjYw==.svg)](https://github.com/trending?l=Yacc)
-[![](./svgs/WUFSQQ==.svg)](https://github.com/trending?l=YARA)
-[![](./svgs/WUFTbmlwcGV0.svg)](https://github.com/trending?l=YASnippet)
-[![](./svgs/WmVwaGly.svg)](https://github.com/trending?l=Zephir)
-[![](./svgs/Wmln.svg)](https://github.com/trending?l=Zig)
+Name|Color
+----|-----
+[1C Enterprise](https://github.com/trending?l=1C%20Enterprise) | `#814CCC`
+[ABAP](https://github.com/trending?l=ABAP) | `#E8274B`
+[ActionScript](https://github.com/trending?l=ActionScript) | `#882B0F`
+[Ada](https://github.com/trending?l=Ada) | `#02f88c`
+[Agda](https://github.com/trending?l=Agda) | `#315665`
+[AGS Script](https://github.com/trending?l=AGS%20Script) | `#B9D9FF`
+[Alloy](https://github.com/trending?l=Alloy) | `#64C800`
+[AMPL](https://github.com/trending?l=AMPL) | `#E6EFBB`
+[AngelScript](https://github.com/trending?l=AngelScript) | `#C7D7DC`
+[ANTLR](https://github.com/trending?l=ANTLR) | `#9DC3FF`
+[API Blueprint](https://github.com/trending?l=API%20Blueprint) | `#2ACCA8`
+[APL](https://github.com/trending?l=APL) | `#5A8164`
+[AppleScript](https://github.com/trending?l=AppleScript) | `#101F1F`
+[Arc](https://github.com/trending?l=Arc) | `#aa2afe`
+[ASP](https://github.com/trending?l=ASP) | `#6a40fd`
+[AspectJ](https://github.com/trending?l=AspectJ) | `#a957b0`
+[Assembly](https://github.com/trending?l=Assembly) | `#6E4C13`
+[Asymptote](https://github.com/trending?l=Asymptote) | `#4a0c0c`
+[ATS](https://github.com/trending?l=ATS) | `#1ac620`
+[AutoHotkey](https://github.com/trending?l=AutoHotkey) | `#6594b9`
+[AutoIt](https://github.com/trending?l=AutoIt) | `#1C3552`
+[Ballerina](https://github.com/trending?l=Ballerina) | `#FF5000`
+[Batchfile](https://github.com/trending?l=Batchfile) | `#C1F12E`
+[BlitzMax](https://github.com/trending?l=BlitzMax) | `#cd6400`
+[Boo](https://github.com/trending?l=Boo) | `#d4bec1`
+[Brainfuck](https://github.com/trending?l=Brainfuck) | `#2F2530`
+[C](https://github.com/trending?l=C) | `#555555`
+[C#](https://github.com/trending?l=C#) | `#178600`
+[C&#43;&#43;](https://github.com/trending?l=C&#43;&#43;) | `#f34b7d`
+[Ceylon](https://github.com/trending?l=Ceylon) | `#dfa535`
+[Chapel](https://github.com/trending?l=Chapel) | `#8dc63f`
+[Cirru](https://github.com/trending?l=Cirru) | `#ccccff`
+[Clarion](https://github.com/trending?l=Clarion) | `#db901e`
+[Clean](https://github.com/trending?l=Clean) | `#3F85AF`
+[Click](https://github.com/trending?l=Click) | `#E4E6F3`
+[Clojure](https://github.com/trending?l=Clojure) | `#db5855`
+[CoffeeScript](https://github.com/trending?l=CoffeeScript) | `#244776`
+[ColdFusion](https://github.com/trending?l=ColdFusion) | `#ed2cd6`
+[Common Lisp](https://github.com/trending?l=Common%20Lisp) | `#3fb68b`
+[Common Workflow Language](https://github.com/trending?l=Common%20Workflow%20Language) | `#B5314C`
+[Component Pascal](https://github.com/trending?l=Component%20Pascal) | `#B0CE4E`
+[Crystal](https://github.com/trending?l=Crystal) | `#000100`
+[CSS](https://github.com/trending?l=CSS) | `#563d7c`
+[Cuda](https://github.com/trending?l=Cuda) | `#3A4E3A`
+[D](https://github.com/trending?l=D) | `#ba595e`
+[Dart](https://github.com/trending?l=Dart) | `#00B4AB`
+[DataWeave](https://github.com/trending?l=DataWeave) | `#003a52`
+[DM](https://github.com/trending?l=DM) | `#447265`
+[Dockerfile](https://github.com/trending?l=Dockerfile) | `#384d54`
+[Dogescript](https://github.com/trending?l=Dogescript) | `#cca760`
+[Dylan](https://github.com/trending?l=Dylan) | `#6c616e`
+[E](https://github.com/trending?l=E) | `#ccce35`
+[eC](https://github.com/trending?l=eC) | `#913960`
+[ECL](https://github.com/trending?l=ECL) | `#8a1267`
+[Eiffel](https://github.com/trending?l=Eiffel) | `#946d57`
+[Elixir](https://github.com/trending?l=Elixir) | `#6e4a7e`
+[Elm](https://github.com/trending?l=Elm) | `#60B5CC`
+[Emacs Lisp](https://github.com/trending?l=Emacs%20Lisp) | `#c065db`
+[EmberScript](https://github.com/trending?l=EmberScript) | `#FFF4F3`
+[EQ](https://github.com/trending?l=EQ) | `#a78649`
+[Erlang](https://github.com/trending?l=Erlang) | `#B83998`
+[F#](https://github.com/trending?l=F#) | `#b845fc`
+[F*](https://github.com/trending?l=F*) | `#572e30`
+[Factor](https://github.com/trending?l=Factor) | `#636746`
+[Fancy](https://github.com/trending?l=Fancy) | `#7b9db4`
+[Fantom](https://github.com/trending?l=Fantom) | `#14253c`
+[FLUX](https://github.com/trending?l=FLUX) | `#88ccff`
+[Forth](https://github.com/trending?l=Forth) | `#341708`
+[Fortran](https://github.com/trending?l=Fortran) | `#4d41b1`
+[FreeMarker](https://github.com/trending?l=FreeMarker) | `#0050b2`
+[Frege](https://github.com/trending?l=Frege) | `#00cafe`
+[Game Maker Language](https://github.com/trending?l=Game%20Maker%20Language) | `#71b417`
+[GDScript](https://github.com/trending?l=GDScript) | `#355570`
+[Genie](https://github.com/trending?l=Genie) | `#fb855d`
+[Gherkin](https://github.com/trending?l=Gherkin) | `#5B2063`
+[Glyph](https://github.com/trending?l=Glyph) | `#c1ac7f`
+[Gnuplot](https://github.com/trending?l=Gnuplot) | `#f0a9f0`
+[Go](https://github.com/trending?l=Go) | `#00ADD8`
+[Golo](https://github.com/trending?l=Golo) | `#88562A`
+[Gosu](https://github.com/trending?l=Gosu) | `#82937f`
+[Grammatical Framework](https://github.com/trending?l=Grammatical%20Framework) | `#79aa7a`
+[Groovy](https://github.com/trending?l=Groovy) | `#e69f56`
+[Hack](https://github.com/trending?l=Hack) | `#878787`
+[Harbour](https://github.com/trending?l=Harbour) | `#0e60e3`
+[Haskell](https://github.com/trending?l=Haskell) | `#5e5086`
+[Haxe](https://github.com/trending?l=Haxe) | `#df7900`
+[HiveQL](https://github.com/trending?l=HiveQL) | `#dce200`
+[HTML](https://github.com/trending?l=HTML) | `#e34c26`
+[Hy](https://github.com/trending?l=Hy) | `#7790B2`
+[IDL](https://github.com/trending?l=IDL) | `#a3522f`
+[Idris](https://github.com/trending?l=Idris) | `#b30000`
+[Io](https://github.com/trending?l=Io) | `#a9188d`
+[Ioke](https://github.com/trending?l=Ioke) | `#078193`
+[Isabelle](https://github.com/trending?l=Isabelle) | `#FEFE00`
+[J](https://github.com/trending?l=J) | `#9EEDFF`
+[Java](https://github.com/trending?l=Java) | `#b07219`
+[JavaScript](https://github.com/trending?l=JavaScript) | `#f1e05a`
+[Jolie](https://github.com/trending?l=Jolie) | `#843179`
+[JSONiq](https://github.com/trending?l=JSONiq) | `#40d47e`
+[Jsonnet](https://github.com/trending?l=Jsonnet) | `#0064bd`
+[Julia](https://github.com/trending?l=Julia) | `#a270ba`
+[Jupyter Notebook](https://github.com/trending?l=Jupyter%20Notebook) | `#DA5B0B`
+[Kotlin](https://github.com/trending?l=Kotlin) | `#F18E33`
+[KRL](https://github.com/trending?l=KRL) | `#28430A`
+[Lasso](https://github.com/trending?l=Lasso) | `#999999`
+[Lex](https://github.com/trending?l=Lex) | `#DBCA00`
+[LFE](https://github.com/trending?l=LFE) | `#4C3023`
+[LiveScript](https://github.com/trending?l=LiveScript) | `#499886`
+[LLVM](https://github.com/trending?l=LLVM) | `#185619`
+[LOLCODE](https://github.com/trending?l=LOLCODE) | `#cc9900`
+[LookML](https://github.com/trending?l=LookML) | `#652B81`
+[LSL](https://github.com/trending?l=LSL) | `#3d9970`
+[Lua](https://github.com/trending?l=Lua) | `#000080`
+[Makefile](https://github.com/trending?l=Makefile) | `#427819`
+[Mask](https://github.com/trending?l=Mask) | `#f97732`
+[MATLAB](https://github.com/trending?l=MATLAB) | `#e16737`
+[Max](https://github.com/trending?l=Max) | `#c4a79c`
+[MAXScript](https://github.com/trending?l=MAXScript) | `#00a6a6`
+[mcfunction](https://github.com/trending?l=mcfunction) | `#E22837`
+[Mercury](https://github.com/trending?l=Mercury) | `#ff2b2b`
+[Meson](https://github.com/trending?l=Meson) | `#007800`
+[Metal](https://github.com/trending?l=Metal) | `#8f14e9`
+[Mirah](https://github.com/trending?l=Mirah) | `#c7a938`
+[Modula-3](https://github.com/trending?l=Modula-3) | `#223388`
+[MQL4](https://github.com/trending?l=MQL4) | `#62A8D6`
+[MQL5](https://github.com/trending?l=MQL5) | `#4A76B8`
+[MTML](https://github.com/trending?l=MTML) | `#b7e1f4`
+[NCL](https://github.com/trending?l=NCL) | `#28431f`
+[Nearley](https://github.com/trending?l=Nearley) | `#990000`
+[Nemerle](https://github.com/trending?l=Nemerle) | `#3d3c6e`
+[nesC](https://github.com/trending?l=nesC) | `#94B0C7`
+[NetLinx](https://github.com/trending?l=NetLinx) | `#0aa0ff`
+[NetLinx&#43;ERB](https://github.com/trending?l=NetLinx&#43;ERB) | `#747faa`
+[NetLogo](https://github.com/trending?l=NetLogo) | `#ff6375`
+[NewLisp](https://github.com/trending?l=NewLisp) | `#87AED7`
+[Nextflow](https://github.com/trending?l=Nextflow) | `#3ac486`
+[Nim](https://github.com/trending?l=Nim) | `#37775b`
+[Nit](https://github.com/trending?l=Nit) | `#009917`
+[Nix](https://github.com/trending?l=Nix) | `#7e7eff`
+[Nu](https://github.com/trending?l=Nu) | `#c9df40`
+[Objective-C](https://github.com/trending?l=Objective-C) | `#438eff`
+[Objective-C&#43;&#43;](https://github.com/trending?l=Objective-C&#43;&#43;) | `#6866fb`
+[Objective-J](https://github.com/trending?l=Objective-J) | `#ff0c5a`
+[OCaml](https://github.com/trending?l=OCaml) | `#3be133`
+[Omgrofl](https://github.com/trending?l=Omgrofl) | `#cabbff`
+[ooc](https://github.com/trending?l=ooc) | `#b0b77e`
+[Opal](https://github.com/trending?l=Opal) | `#f7ede0`
+[Oxygene](https://github.com/trending?l=Oxygene) | `#cdd0e3`
+[Oz](https://github.com/trending?l=Oz) | `#fab738`
+[P4](https://github.com/trending?l=P4) | `#7055b5`
+[Pan](https://github.com/trending?l=Pan) | `#cc0000`
+[Papyrus](https://github.com/trending?l=Papyrus) | `#6600cc`
+[Parrot](https://github.com/trending?l=Parrot) | `#f3ca0a`
+[Pascal](https://github.com/trending?l=Pascal) | `#E3F171`
+[Pawn](https://github.com/trending?l=Pawn) | `#dbb284`
+[Pep8](https://github.com/trending?l=Pep8) | `#C76F5B`
+[Perl](https://github.com/trending?l=Perl) | `#0298c3`
+[Perl 6](https://github.com/trending?l=Perl%206) | `#0000fb`
+[PHP](https://github.com/trending?l=PHP) | `#4F5D95`
+[PigLatin](https://github.com/trending?l=PigLatin) | `#fcd7de`
+[Pike](https://github.com/trending?l=Pike) | `#005390`
+[PLSQL](https://github.com/trending?l=PLSQL) | `#dad8d8`
+[PogoScript](https://github.com/trending?l=PogoScript) | `#d80074`
+[PostScript](https://github.com/trending?l=PostScript) | `#da291c`
+[PowerBuilder](https://github.com/trending?l=PowerBuilder) | `#8f0f8d`
+[PowerShell](https://github.com/trending?l=PowerShell) | `#012456`
+[Processing](https://github.com/trending?l=Processing) | `#0096D8`
+[Prolog](https://github.com/trending?l=Prolog) | `#74283c`
+[Propeller Spin](https://github.com/trending?l=Propeller%20Spin) | `#7fa2a7`
+[Puppet](https://github.com/trending?l=Puppet) | `#302B6D`
+[PureBasic](https://github.com/trending?l=PureBasic) | `#5a6986`
+[PureScript](https://github.com/trending?l=PureScript) | `#1D222D`
+[Python](https://github.com/trending?l=Python) | `#3572A5`
+[q](https://github.com/trending?l=q) | `#0040cd`
+[QML](https://github.com/trending?l=QML) | `#44a51c`
+[Quake](https://github.com/trending?l=Quake) | `#882233`
+[R](https://github.com/trending?l=R) | `#198CE7`
+[Racket](https://github.com/trending?l=Racket) | `#3c5caa`
+[Ragel](https://github.com/trending?l=Ragel) | `#9d5200`
+[RAML](https://github.com/trending?l=RAML) | `#77d9fb`
+[Rascal](https://github.com/trending?l=Rascal) | `#fffaa0`
+[Rebol](https://github.com/trending?l=Rebol) | `#358a5b`
+[Red](https://github.com/trending?l=Red) | `#f50000`
+[Ren&#39;Py](https://github.com/trending?l=Ren&amp;apos;Py) | `#ff7f7f`
+[Ring](https://github.com/trending?l=Ring) | `#2D54CB`
+[Roff](https://github.com/trending?l=Roff) | `#ecdebe`
+[Rouge](https://github.com/trending?l=Rouge) | `#cc0088`
+[Ruby](https://github.com/trending?l=Ruby) | `#701516`
+[RUNOFF](https://github.com/trending?l=RUNOFF) | `#665a4e`
+[Rust](https://github.com/trending?l=Rust) | `#dea584`
+[SaltStack](https://github.com/trending?l=SaltStack) | `#646464`
+[SAS](https://github.com/trending?l=SAS) | `#B34936`
+[Scala](https://github.com/trending?l=Scala) | `#c22d40`
+[Scheme](https://github.com/trending?l=Scheme) | `#1e4aec`
+[sed](https://github.com/trending?l=sed) | `#64b970`
+[Self](https://github.com/trending?l=Self) | `#0579aa`
+[Shell](https://github.com/trending?l=Shell) | `#89e051`
+[Shen](https://github.com/trending?l=Shen) | `#120F14`
+[Slash](https://github.com/trending?l=Slash) | `#007eff`
+[Slice](https://github.com/trending?l=Slice) | `#003fa2`
+[Smalltalk](https://github.com/trending?l=Smalltalk) | `#596706`
+[Solidity](https://github.com/trending?l=Solidity) | `#AA6746`
+[SourcePawn](https://github.com/trending?l=SourcePawn) | `#5c7611`
+[SQF](https://github.com/trending?l=SQF) | `#3F3F3F`
+[Squirrel](https://github.com/trending?l=Squirrel) | `#800000`
+[SRecode Template](https://github.com/trending?l=SRecode%20Template) | `#348a34`
+[Stan](https://github.com/trending?l=Stan) | `#b2011d`
+[Standard ML](https://github.com/trending?l=Standard%20ML) | `#dc566d`
+[SuperCollider](https://github.com/trending?l=SuperCollider) | `#46390b`
+[Swift](https://github.com/trending?l=Swift) | `#ffac45`
+[SystemVerilog](https://github.com/trending?l=SystemVerilog) | `#DAE1C2`
+[Tcl](https://github.com/trending?l=Tcl) | `#e4cc98`
+[Terra](https://github.com/trending?l=Terra) | `#00004c`
+[TeX](https://github.com/trending?l=TeX) | `#3D6117`
+[TI Program](https://github.com/trending?l=TI%20Program) | `#A0AA87`
+[Turing](https://github.com/trending?l=Turing) | `#cf142b`
+[TypeScript](https://github.com/trending?l=TypeScript) | `#2b7489`
+[UnrealScript](https://github.com/trending?l=UnrealScript) | `#a54c4d`
+[Vala](https://github.com/trending?l=Vala) | `#fbe5cd`
+[VCL](https://github.com/trending?l=VCL) | `#148AA8`
+[Verilog](https://github.com/trending?l=Verilog) | `#b2b7f8`
+[VHDL](https://github.com/trending?l=VHDL) | `#adb2cb`
+[Vim script](https://github.com/trending?l=Vim%20script) | `#199f4b`
+[Visual Basic](https://github.com/trending?l=Visual%20Basic) | `#945db7`
+[Volt](https://github.com/trending?l=Volt) | `#1F1F1F`
+[Vue](https://github.com/trending?l=Vue) | `#2c3e50`
+[wdl](https://github.com/trending?l=wdl) | `#42f1f4`
+[WebAssembly](https://github.com/trending?l=WebAssembly) | `#04133b`
+[wisp](https://github.com/trending?l=wisp) | `#7582D1`
+[X10](https://github.com/trending?l=X10) | `#4B6BEF`
+[xBase](https://github.com/trending?l=xBase) | `#403a40`
+[XC](https://github.com/trending?l=XC) | `#99DA07`
+[XQuery](https://github.com/trending?l=XQuery) | `#5232e7`
+[XSLT](https://github.com/trending?l=XSLT) | `#EB8CEB`
+[Yacc](https://github.com/trending?l=Yacc) | `#4B6C4B`
+[YARA](https://github.com/trending?l=YARA) | `#220000`
+[YASnippet](https://github.com/trending?l=YASnippet) | `#32AB90`
+[Zephir](https://github.com/trending?l=Zephir) | `#118f9e`
+[Zig](https://github.com/trending?l=Zig) | `#ec915c`
 

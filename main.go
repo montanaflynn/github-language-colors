@@ -2,7 +2,6 @@ package main
 
 import (
 	"bytes"
-	"encoding/base64"
 	"html/template"
 	"io/ioutil"
 	"log"
@@ -10,27 +9,21 @@ import (
 	"sort"
 	"strings"
 
-	colorful "github.com/lucasb-eyer/go-colorful"
 	yaml "gopkg.in/yaml.v2"
 )
 
-type image struct {
-	LangName  string
-	LangColor string
-	TextColor string
-}
-
-type imageLink struct {
+type language struct {
+	Name        string
 	EncodedName string
-	ImageName   string
+	HexColor    string
 }
 
-type readme []imageLink
+type readme []language
 
 func main() {
 
 	// parse templates
-	tmpl, err := template.ParseFiles("./image.tmpl", "./readme.tmpl")
+	tmpl, err := template.ParseFiles("./readme.tmpl")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -70,38 +63,6 @@ func main() {
 			color, ok := meta["color"].(string)
 			if ok {
 
-				// check if color is light or dark to determine text color
-				c, err := colorful.Hex(color)
-				if err != nil {
-					log.Fatal(err)
-				}
-				_, _, l := c.Hcl()
-				textColor := "#FFF"
-				if l > 0.7 {
-					textColor = "#000"
-				}
-
-				// create svg images with file name as base64
-				imageName := base64.StdEncoding.EncodeToString([]byte(lang))
-
-				svgBuffer := bytes.Buffer{}
-
-				img := image{
-					LangName:  lang,
-					LangColor: color,
-					TextColor: textColor,
-				}
-
-				err = tmpl.ExecuteTemplate(&svgBuffer, "image.tmpl", img)
-				if err != nil {
-					log.Fatal(err)
-				}
-
-				err = ioutil.WriteFile("./svgs/"+imageName+".svg", svgBuffer.Bytes(), 0644)
-				if err != nil {
-					log.Fatal(err)
-				}
-
 				// encode any spaces
 				encodedName := strings.Replace(lang, " ", "%20", -1)
 
@@ -109,9 +70,10 @@ func main() {
 				encodedName = strings.Replace(encodedName, "'", "&apos;", -1)
 
 				// add language to readme
-				readmeData = append(readmeData, imageLink{
+				readmeData = append(readmeData, language{
+					Name:        lang,
 					EncodedName: encodedName,
-					ImageName:   imageName,
+					HexColor:    color,
 				})
 			}
 		}

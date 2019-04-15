@@ -2,6 +2,7 @@ package main
 
 import (
 	"bytes"
+	"encoding/base64"
 	"html/template"
 	"io/ioutil"
 	"log"
@@ -12,18 +13,25 @@ import (
 	yaml "gopkg.in/yaml.v2"
 )
 
-type language struct {
+type image struct {
+	LangName  string
+	LangColor string
+	TextColor string
+}
+
+type imageLink struct {
 	Name        string
 	EncodedName string
+	ImageName   string
 	HexColor    string
 }
 
-type readme []language
+type readme []imageLink
 
 func main() {
 
 	// parse templates
-	tmpl, err := template.ParseFiles("./readme.tmpl")
+	tmpl, err := template.ParseFiles("./image.tmpl", "./readme.tmpl")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -63,6 +71,25 @@ func main() {
 			color, ok := meta["color"].(string)
 			if ok {
 
+				// create svg images with file name as base64
+				imageName := base64.StdEncoding.EncodeToString([]byte(lang))
+
+				svgBuffer := bytes.Buffer{}
+
+				img := image{
+					LangColor: color,
+				}
+
+				err = tmpl.ExecuteTemplate(&svgBuffer, "image.tmpl", img)
+				if err != nil {
+					log.Fatal(err)
+				}
+
+				err = ioutil.WriteFile("./svgs/"+imageName+".svg", svgBuffer.Bytes(), 0644)
+				if err != nil {
+					log.Fatal(err)
+				}
+
 				// encode any spaces
 				encodedName := strings.Replace(lang, " ", "%20", -1)
 
@@ -70,9 +97,10 @@ func main() {
 				encodedName = strings.Replace(encodedName, "'", "&apos;", -1)
 
 				// add language to readme
-				readmeData = append(readmeData, language{
+				readmeData = append(readmeData, imageLink{
 					Name:        lang,
 					EncodedName: encodedName,
+					ImageName:   imageName,
 					HexColor:    color,
 				})
 			}
